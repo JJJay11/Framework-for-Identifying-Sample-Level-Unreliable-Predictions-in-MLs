@@ -30,7 +30,19 @@ import random
 device = 'cuda'
 
 # Landslide Contribiting Factors
-save_columns = ["DRI","TWI","DGL",'Lithology',"Altitude","Slope","Aspect","Qulv_ping","Qulv_pou","Undulation","NDVI","DRO","DSE"]
+save_columns = ["DRI",
+                "TWI",
+                "DGL",
+                'Lithology',
+                "Altitude",
+                "Slope",
+                "Aspect",
+                "Qulv_ping",
+                "Qulv_pou",
+                "Undulation",
+                "NDVI",
+                "DRO",
+                "DSE"]
 
 # Landslide data
 ZQ_point = pd.read_csv(u".\data_1.txt",sep=",",header=0,encoding="utf-8")
